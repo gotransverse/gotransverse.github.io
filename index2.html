@@ -171,62 +171,6 @@ Hello World
 					</a>
 				</div>
 
-				<!-- Marketo Form -->
-				<form id="mktoForm_1065" novalidate="novalidate" class="mktoForm mktoHasWidth mktoLayoutAbove" style="font-family: Helvetica, Arial, sans-serif; font-size: 14px; color: rgb(51, 51, 51); width: 311px;"><style type="text/css">.mktoForm .mktoButtonWrap.mktoMinimal .mktoButton {
-background: #e3e3e3;
-border: 1px solid #bbb;
-border-radius: 3px;
--webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
-box-shadow: inset 0 0 1px 1px #f6f6f6;
-color: #333;
-font: bold 12px/1 "helvetica neue", helvetica, arial, sans-serif;
-padding: 8px 0 9px;
-text-align: center;
-text-shadow: 0 1px 0 #fff;
-width: 150px;
-}
-.mktoForm .mktoButtonWrap.mktoMinimal .mktoButton:hover {
-background: #d9d9d9;
--webkit-box-shadow: inset 0 0 1px 1px #eaeaea;
-box-shadow: inset 0 0 1px 1px #eaeaea;
-color: #222;
-cursor: pointer;
-}
-.mktoForm .mktoButtonWrap.mktoMinimal .mktoButton:active {
-background: #d0d0d0;
--webkit-box-shadow: inset 0 0 1px 1px #e3e3e3;
-box-shadow: inset 0 0 1px 1px #e3e3e3;
-color: #000;
-}
-
-.mktoForm .mktoButtonWrap.mktoMinimal button.mktoButton {background:#FDcf17;}
-</style><div class="mktoFormRow"><div class="mktoFormCol" style="margin-bottom: 10px;"><div class="mktoOffset mktoHasWidth" style="width: 10px;"></div><div class="mktoFieldWrap"><div class="mktoHtmlText mktoHasWidth" style="width: 260px;"><span style="color: #ffffff;">Sign up for our monthly newsletter</span></div><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoFormRow"><div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;"><div class="mktoOffset" style="width: 10px;"></div><div class="mktoFieldWrap mktoRequiredField"><label for="Email" class="mktoLabel mktoHasWidth" style="width: 300px;"><div class="mktoAsterix">*</div>Email Address:</label><div class="mktoGutter mktoHasWidth" style="width: 10px;"></div><input id="Email" name="Email" maxlength="255" type="email" class="mktoField mktoEmailField mktoHasWidth mktoRequired" style="width: 300px;"><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoFormRow"><input type="hidden" name="LeadSource" class="mktoField mktoFieldDescriptor mktoFormCol" value="Web" style="margin-bottom: 10px;"><div class="mktoClear"></div></div><div class="mktoFormRow"><input type="hidden" name="Lead_Source_Detail__c" class="mktoField mktoFieldDescriptor mktoFormCol" value="Website_NewsletterSubscribe" style="margin-bottom: 10px;"><div class="mktoClear"></div></div><div class="mktoFormRow"><input type="hidden" name="CMP" class="mktoField mktoFieldDescriptor mktoFormCol" value="" style="margin-bottom: 10px;"><div class="mktoClear"></div></div><div class="mktoFormRow"><input type="hidden" name="VDR" class="mktoField mktoFieldDescriptor mktoFormCol" value="" style="margin-bottom: 10px;"><div class="mktoClear"></div></div><div class="mktoFormRow"><input type="hidden" name="PRG" class="mktoField mktoFieldDescriptor mktoFormCol" value="" style="margin-bottom: 10px;"><div class="mktoClear"></div></div><div class="mktoFormRow"><input type="hidden" name="utm_campaign" class="mktoField mktoFieldDescriptor mktoFormCol" value="" style="margin-bottom: 10px;"><div class="mktoClear"></div></div><div class="mktoButtonRow"><span class="mktoButtonWrap mktoMinimal" style="margin-left: 89px;"><button type="submit" class="mktoButton">Subscribe</button></span></div><input type="hidden" name="formid" class="mktoField mktoFieldDescriptor" value="1065"><input type="hidden" name="munchkinId" class="mktoField mktoFieldDescriptor" value="295-AAT-782"></form>
-
-				<script src="//app-sji.marketo.com/js/forms2/js/forms2.min.js"></script>
-
-				<script>
-					MktoForms2.loadForm("//app-sji.marketo.com", "295-AAT-782", 1065, function(form) {
-						form.onSuccess(function(values, followUpUrl) {
-							// Show "Thank you" message on successful submission
-							var marketoForm = document.getElementById('mktoForm_1065');
-
-							if (marketoForm !== null) {
-								var thanksDiv = document.createElement('div');
-
-								thanksDiv.className = 'marketo-submission-thanks';
-								thanksDiv.innerHTML = '<p>Thank you for subscribing!</p>';
-
-								marketoForm.parentNode.insertBefore(thanksDiv, marketoForm);
-							}
-
-							// Hide Marketo form
-							form.getFormElem().hide();
-
-							// Prevent submission handler from redirecting
-							return false;
-						});
-					});
-				</script>
 			</div>
 
 			<div class="medium-8 columns">
